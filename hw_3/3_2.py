@@ -8,5 +8,5 @@ def check_list(number_list):
             final_list.append(n)
     return final_list
 
-a = (1,8,9,1234,4,78,687,235,14)
-print(f'Индексы четных эл-ов заданного массива : {check_list(a)}')
+num_list = [1,8,9,1234,4,78,687,235,14]
+print(f'Индексы четных эл-ов заданного массива : {check_list(num_list)}')
